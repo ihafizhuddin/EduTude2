@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175498133601",
+    "firebase_url": "https://edutude-65869.firebaseio.com",
+    "project_id": "edutude-65869",
+    "storage_bucket": "edutude-65869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175498133601:android:cc4f41bf526a460bd9aa20",
+        "android_client_info": {
+          "package_name": "com.hidayat.edutude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175498133601-mr3lan2m0hbs6iad2v7vau5gbptjb8hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJwRnohgFSf4d0h_1DCFmja3ZgPZS28oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175498133601-mr3lan2m0hbs6iad2v7vau5gbptjb8hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
