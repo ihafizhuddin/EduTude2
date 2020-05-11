@@ -46,12 +46,73 @@
         android:textStyle="bold"
         android:textColor="@color/colorAccent"/>
 
+    <view
+        android:id="@+id/view_YouTubePlay"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_email"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_below="@+id/view_YouTubePlay"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_play"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/namePlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Playlist X"
+            android:layout_marginRight="100dp"
+            />
+
+        <view
+            android:id="@+id/view_YouTubePlay2"
+            class="com.google.android.youtube.player.YouTubePlayerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namePlaylist"
+            android:layout_weight="1"
+
+            />
+
+        <Button
+            android:id="@+id/btn_play2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_below="@+id/view_YouTubePlay2"
+            android:text="Play"
+            android:layout_centerHorizontal="true"
+            />
+
+    </LinearLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/tv_email"
+        android:layout_below="@+id/btn_play"
         android:id="@+id/btn_logout"
         android:text="Log out"
         android:onClick="logout"
@@ -61,7 +122,4 @@
         android:layout_marginTop="50dp"/>
 
 
-
-
-    
 </RelativeLayout>
