@@ -56,7 +56,7 @@ YouTubePlayer.OnInitializedListener mOnInitializedListener, nOnInitializedListen
         });
 
 
-        //===============
+        //=================
         btn_play2 = (Button) findViewById(R.id.btn_play2);
         nYoutubePlayerView = (YouTubePlayerView) findViewById(R.id.view_YouTubePlay2);
 
@@ -78,7 +78,7 @@ YouTubePlayer.OnInitializedListener mOnInitializedListener, nOnInitializedListen
                 nYoutubePlayerView.initialize(YoutubeConfig.getApiKey(), nOnInitializedListener);
             }
         });
-        //===============
+        //=================
 
     }
 
